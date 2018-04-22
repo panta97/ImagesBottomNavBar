@@ -24,7 +24,11 @@
         </activity>
         <activity
             android:name=".viewcontrollers.activities.MainActivity"
-            android:label="@string/title_activity_main"></activity>
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name=".viewcontrollers.activities.ImagesActivity"
+            android:label="@string/title_activity_images"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
