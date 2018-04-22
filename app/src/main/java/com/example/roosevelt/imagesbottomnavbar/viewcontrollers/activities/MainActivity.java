@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_images:
+                    mTextMessage.setText(R.string.title_images);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_upload:
+                    mTextMessage.setText(R.string.title_upload);
                     return true;
             }
             return false;
